@@ -12,6 +12,12 @@
 
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta property="og:image" content="https://home.png">
+        <meta property="og:image:type" content="image/png">
+        <meta property="og:image:width" content="436">
+        <meta property="og:image:height" content="228">
+        <meta property="og:title" content="Yi-Kai Chen's Portfolio">
+        <meta property="og:description" content="An aspiring business analyst">
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<body class="is-preload">
@@ -32,16 +38,21 @@
 							<div class="inner">
 								<h1>Yi-Kai Chen's Portfolio</h1>
 								<p>AN ASPIRING Business Analyst skilled in SQL, Tableau and R  
-								<br> Welcome!!<br> <a href="https://www.linkedin.com/in/yikaichen0214/" target= "_blank">@My LinkedIn</a> </p>
+								<br> Welcome!!<br> 
+								<a href="https://www.linkedin.com/in/yikaichen0214/" target= "_blank">@My LinkedIn</a> 
+								<br><a href="https://github.com/yiKai0214?tab=projects" target= "_blank">@My GitHub</a> </p>
 							</div>
 						</div>
 						<nav>
 							<ul>
+								
 								<li><a href="#mylife">My Life</a></li>
 								<li><a href="#work">Job and Education</a></li>
 								<li><a href="#projects">Data Analytic Projects</a></li>
-								<li><a href="#extra">Extracurricular Activities</a></li>
-						        <li><a href="#book">My Book List</a></li>
+					
+								<li><a href="#extra">Extracurriculars</a></li>
+								<li><a href="#book">My Book List</a></li>
+								
 								<!--<li><a href="#elements">Elements</a></li>-->
 							</ul>
 						</nav>
@@ -53,9 +64,9 @@
 						<!-- Work -->
 							<article id="work">
 								<h2 class="major">Work</h2>
-					
+					            <p>I'm passionate about uncovering and telling unique stories within raw data to enhance business efficiency. At Deloitte, I analyzed 8 terabytes of data log to protect data integrity and provided business recommendations to VPs and CIOs. During my internship at Idaho Asia Trade Office, I built dashboards to analyze importing trend of Taiwan products to assist executive team in making importing decisions.</p>
 								<span class="image main"><img src="images/work place.png" alt="" /></span>
-
+								
 								<h3>Deloitte Taiwan | Taipei, Taiwan | IT Risk Advisory Consultant | Sep. 2022–Apr. 2023</h3>
 								    -  Delivered actionable real-time business solutions to senior project managers and vice presidents of Deloitte and chief information officers of 8 technology companies, with  87.5% of customer satisfaction and 75% of solution acceptance rate.
 								<br> 
@@ -105,7 +116,10 @@
 									<br>
 									<br> Your friend, 
 									<br> Yi-Kai
-									<br> Seattle | Washington | 2023/10/04 
+									<br> Seattle | Washington | 2023/10/04
+									<br>
+									<br> Gmail: yikai0214@gmail.com
+									<br> Phone number: (206) 403-6980 
 									</p>
 							</article>
 						<!-- Projects -->
@@ -117,8 +131,8 @@
 								<p>Project timeline: Aug.2023 ~ Sep.2023
 								<br>Dataset time period: Aug.31.2018 ~ Sep.1.2019</p>
 								<h3>Why</h3>
-								<p>Have you ever wondered how Amazon organize to deliver 1.6 million packages per day, and how it achieves two day or one day or even overnight delivery? 
-									Well, I am totally intrigued by the complex logistics behind it. So, I made a Tableau dashboard to dive deep into the operations of one of Amazon's most critical teams, Amazon Air.
+								<p>Have you ever wondered how Amazon organizes to deliver 1.6 million packages per day, and how it achieves two day or one day or even overnight delivery? 
+									Well, I am totally intrigued by the complex logistics and innovations behind it. So, I made a Tableau dashboard to dive deep into the operations of one of Amazon's most critical teams, Amazon Air. Most importantly, I designed strategic suggestions to assist Amazon Air go above and beyond its customer expectation.
 									<span class="image main"><img src="images/airplane.jpeg" alt="" /></span>
 									<h3>What</h3>	
 									Amazon Air was established in 2015 to support long-distance delivery from fulfillment centers to regional customers, significantly reducing the waiting time for Prime customers and allowing Amazon to achieve its emphasized Customer Obsession goal.  </p>
@@ -129,17 +143,17 @@
 								<h3>Insights</h3>
 									<p>✨74.54% of Amazon Air's flights took off within 30 minutes of scheduled time 
 									<br>✨Total payload capacity grew 48.81% from 2018 to 2019
-									<br>✨The route from Roswell Air Center, New Mexico(ROW) to Cincinnati/North Kentucky Airport, Kentucky(CVG) has the highest average delay time in departure at 234 minutes.</p>
+									<br>✨The route from Tampa International Airport to Cecil Airport (TPAVQQ) has the highest average delay time in departure at 620.5 minutes.</p>
 								    <h3>How</h3>
 									<p>(1) Strategic Metrics: I placed a strong emphasis on designing metrics aligned with business goals. These metrics are not just informative but also actionable, comparable, and controllable, empowering the business to refine its decisions once anomalies are identified.
 									<span class="image main"><img src="images/tableau.png" alt="" /></span>
-									<br>(2) Robust ETL Pipeline: I've designed an ETL data pipeline that connects MySQL to AWS Cloud and Tableau. This not only ensures data security but also simplifies data management, making it more accessible for the business.
+									<br>(2) Scalable ETL Pipeline: I've designed an ETL data pipeline that connects MySQL to AWS Cloud and Tableau. This not only ensures data security but also simplifies data management, making it more accessible for the business.
 									<br>	
 									<span class="image main"><img src="images/etl.png" alt="" /></span>
 									<br>(3) Comprehensive Documentation: I've provided extensive documentation alongside in-depth analysis to facilitate user comprehension
 								    <span class="image main"><img src="images/doc.png" alt="" /></span>
 									<h3>Project challenges</h3>
-                                    <br> (1) After defining the business goals of Amazon Air, I spent a week or 25% of the time brainstorming the metrics that are most important to the team and how to comprehensively translate them into tableau.
+                                    (1) After defining the business goals of Amazon Air, I spent a week or 25% of the time brainstorming the metrics that are most important to the team and how to comprehensively translate them into tableau.
                                     <br> 
 									<br>(2) Secondly, this is my first time using AWS to build an ETL data pipeline. Since I'm using a free trial account, there are data usage limits when I try to test the pipeline. Additionally, I considered whether the pipeline would be practical for actual business application. 
 									<br> 
@@ -147,6 +161,35 @@
 								</p> For more information, please check my dashboard at <a href="https://public.tableau.com/app/profile/yi.kai.chen3013/viz/amazonairanalysis/Dashboard2" target= "_blank">@Tableau Public</a> 
 								<br>Please check my analysis and insights at <a href="https://www.linkedin.com/in/yikaichen0214/overlay/projects/1059160596/multiple-media-viewer/?profileId=ACoAADaVjCIBMAXX--uooii8eQNM4UP2HPSR3qM&treasuryMediaId=1635542522538" target= "_blank">@Technical Documentation</a> 
 								<br>Please check my SQL code at <a href="https://github.com/yiKai0214?tab=projects"  target= "_blank">@Github</a> </p>
+								
+								<h2 class="major">Diamond Price Prediction 
+									<br>with MySQL and R 
+									</h2>
+                                <span class="image main"><img src="images/diamond.jpeg" alt="" /></span>
+								<h3>When</h3>
+								Aug.2023
+                                <br><br><h3>Why</h3> 
+                                When making purchases on an e-commerce platform, numerous customers frequently pause and are not sure about if they are being accurately charged according to the seller's listed price. Thus, knowing the pain point of the customers, I led 4 master students from University of Washington Master of Science in Business Analytics program for designing solutions to such problem.
+                                <br><br><h3>What</h3>
+                                We decided to build a linear regression model that offers predicted prices, enabling customers to compare them with the actual listed prices. 
+                                <br><br><h3>Business Goal</h3>
+                                By implementing this approach, sellers on e-commerce platform can enhance customer loyalty through a transparent selling mechanism, especially in product categories like diamond prices, where customers are particularly cautious due to the high cost involved.
+                                <br><br><h3>How</h3>
+                                (1)	Used MySQL to clean and transform data into digestible format
+								<br>(2) Utilized R to perform exploratory data analysis and visualized statistic attributes
+                                <br>(3)	Ran regression model through Excel
+                                <br>(4)	Compared the predicted price with actual price on Blue Nile, a diamond e-commerce
+                                <br><br><h3>My contribution to the team</h3>
+                                (1)	Guided the team in planning analysis process 
+								<br>(2) Wrote MySQL code to manipulate data
+                                <br>(3)	Made decision on the method for encoding categorical variables
+                                <br>(4)	Presented findings and strategic value in a concise way during in-class presentation
+                                <br><br><h3>Insights</h3>
+								✨High Adjusted R-square (a corrected goodness-of-fit, the closer to 1 the higher the model accuracy): our model achieved 0.9196 of adjusted r-square
+                                <br>✨Offer price comparing tool (as shown below)
+								<span class="image main"><img src="images/dprice.png" alt="" /></span>
+                                Please check my SQL code at <a href="https://github.com/yiKai0214?tab=projects"  target= "_blank">@Github</a> </p>
+                                <br>
 								<h2 class="major">Baseball Prediction with R</h2>
 								<span class="image main"><img src="images/mariners.png" alt="" /></span>
 	
@@ -155,7 +198,7 @@
 								
 								<h3>Why</h3>
 								<p>If you love sports like baseball, basketball, football, or soccer, have you ever wondered how many wins your favorite team will have this season and what's the percentage of them advance to the playoffs? 
-									In this project, I predicted my favorite baseball team, the Seattle Mariners, from these two perspectives. Furthermore, my model predicts not just for the Mariners, but also for all 29 other MLB teams.</p>
+									In this project, I predicted my favorite baseball team, the Seattle Mariners, from these two perspectives. Furthermore, my model is so versatile that it predict for 29 other MLB teams, the data stream is automated, and my model is scalable.</p>
 								<span class="image main"><img src="images/baseball project.png" alt="" /></span>
 									<h3>What</h3>	
 									</p>The Seattle Mariners are a Major League Baseball (MLB) team located at T-Mobile Park in Seattle, Washington. 
@@ -164,8 +207,8 @@
 								<span class="image main"><img src="images/playoff.jpeg" alt="" /></span>
 				
 									<h3>How</h3>
-									<p>- Deploy linear regression, data visualization and R packages, including dplyr and ggplot2, to predict the Seattle Mariners' wins in 2023 season
-                                    <br>- Apply supervised machine learning such as logistic regression and R to predict both Mariners' and MLB teams' probability of advancing to the playoff
+									<p>(1) Deploy linear regression, data visualization and R packages, including dplyr and ggplot2, to predict the Seattle Mariners' wins in 2023 season
+                                    <br>(2) Apply supervised machine learning such as logistic regression and R to predict both Mariners' and MLB teams' probability of advancing to the playoff
 									<h3>Insights</h3>
                                     ✨ Predicted that the Seattle Mariners will get 96 wins or 59% of winning percentage into the 2023 season with a high-quality model, adjusted R-squared of 0.931 and a low sum-of-squares error (SSE)
                                     <br>✨ Structured 2 managerial implications through analytical perspective
@@ -175,14 +218,57 @@
 									     So, I spent about 40% of my time figuring out what's the best code for my model and how to interpret baseball in statistics.
 
 									<span class="image main"><img src="images/model.png" alt="" /></span>
-									<p>Sample page of technical documentation</p>
-								
-								</p> For more information, please check my analysis and insights at <a href="https://www.linkedin.com/in/yikaichen0214/overlay/1635529426966/single-media-viewer/?profileId=ACoAADaVjCIBMAXX--uooii8eQNM4UP2HPSR3qM" target= "_blank">@Technical Documentation</a> </p>
+									Sample page of technical documentation
+								<br><br>Please check my R code at <a href="https://github.com/yiKai0214?tab=projects"  target= "_blank">@Github</a>
+								<br>For more information, please check my analysis and insights at <a href="https://www.linkedin.com/in/yikaichen0214/overlay/1635529426966/single-media-viewer/?profileId=ACoAADaVjCIBMAXX--uooii8eQNM4UP2HPSR3qM" target= "_blank">@Documentation</a> </p>
+							
+								<h2 class="major">IT System inspection Project 
+									<br>with HTC </h2>
+                                <span class="image main"><img src="images/htc2.png" alt="" /></span>
+								<h3>When</h3>
+								<p>Mar.2023 ~ April.2023</p>
+								<h3>Why</h3>
+								<p> Assessed the accuracy, completeness, and reliability of data within HTC's IT systems, ensuring that data used for annual report and decision-making is trustworthy.</p>
+								<h3>What</h3>
+								Extracted 1 TB of data log, evaluated configurations and interviewed with 6 stakeholders of the following systems: 
+								<br><br>- Cloud Service: Microsoft Azure
+								<br>- Operating System: Windows 10
+								<br>- Database: Microsoft SQL Server 
+								<br>- Network Security: Paloalto Network
+								<br>- ERP(Enterprise Resource Planning): SAP 
+								<span class="image main"><img src="images/system.png" alt="" /></span>
+								<h3>Who (Stakeholders)</h3>
+								- HTC (Customer): Global IT Director, Director of Network Security, Cloud Architect, Systems Manager, Database Administrator, Data Engineers
+								<br><br>- Deloitte, Risk Advisory (Service Provider, me): Partner (Vice President), Project Manager, Senior Consultants 
+								<br><br>- Deloitte, Audit & Assurance (Customer, Request the Risk Advisory team to audit HTC's IT system data for financial reporting): Senior Managers, Senior Auditors
+								<br><br>
+								<h3>How</h3>
+                                - Established trust with HTC's global IT leaders, data engineers and Deloitte's internal teams by being transparent in timeline and by responding to customers' requests in a timely manner.
+								<br>- Providing 5 long term, smart and easy IT solutions for HTC by working backwards from its business goals.
+								<br>- 
+								<p> </p>
+								<h3>Project Challenges</h3>
 
+								<h3>Project Outcome</h3>
+								✨ Prevented HTC’s enterprise resource planning system from 2 unauthorized access by analyzing data log
+                                <br>✨ Achieved 80% of solution acceptance rate from HTC by 
 								</ul>
+
 							</article>
 						<!-- extra -->
 						<article id="extra">
+							<h2 class="major">Championship of Russell 
+								<br>Investments International 
+								<br>Case Competition 2O23</h2>
+							<h3>When</h3>
+							<p>Nov.4 2023 ~ Nov.6 2023</p>
+							<h3>How</h3>
+							<p>(1) As a team leader, I guided 4 business analysis students in conducting marketing analysis and break-even analysis of AI created plant-based foods to come up with a robust, actionable, and frugal go-to-market strategy within 48 hours.
+							<br><br>(2) Convinced 4 judges from Microsoft and Expedia by articulating actual business application and answering questions candidly.	
+							<br><br>(3) Competed with master students from MBA, Supply Chain Management and Information System, winning $500 grand prize. </p>
+								<br><br>For more detail of our project please check the article at <a href=https://blog.foster.uw.edu/students-explore-new-global-markets-for-ai-created-plant-based-food-products/ target= "_blank">@Foster Business School Blog</a>
+							<span class="image main"><img src="images/Masters-RIICC-Champ.jpg" alt="" /></span>
+						
 							<h2 class="major">AWS Skills Center</h2>
 							<p>(1) I took 9 in-person cloud computing classes at the AWS Skills Center, in which I learned concepts such as Amazon S3, Amazon EC2, Amazon RDS.
 							<br>(2)	I also join 5+ AWS Skills Center’s events, including career networking event, volunteer event and Cloud Exploration Day.
@@ -190,9 +276,8 @@
 							<span class="image main"><img src="images/aws.png" alt="" /></span>
 							<span class="image main"><img src="images/awscerts.png" alt="" /></span>
 
-							<h2 class="major">Adobe Analytics Challenge</h2>
-							<p>As a team leader, I guided three Business Analytics students and collaborated with UW professor to carry out analytic projects that enhance customers experiences. </p>
-							<span class="image main"><img src="images/adobe.png" alt="" /></span>
+
+						
                         </article>
 						<!-- book list -->
 							<article id="book">
@@ -490,7 +575,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 				<!-- Footer -->
 					<footer id="footer">
-						<p class="copyright">&copy; Yi-Kai Chen 
+						<p class="copyright">&copy; 2023 Yi-Kai Chen 
 						
 						</li> <a href="https://www.instagram.com/kai0214_/" target= "_blank" class="icon brands fa-instagram"><span class="label">Instagram</span></a>
 					    </li> <a href="https://github.com/yiKai0214?tab=projects" target= "_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
