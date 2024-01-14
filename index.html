@@ -5,11 +5,13 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	
+
 	<head>
-
+		<link href="https://fonts.cdnfonts.com/css/amazon-ember" rel="stylesheet">
+		<style>
+			@import url('https://fonts.cdnfonts.com/css/amazon-ember');
+	</style>
 		<title>Yi-Kai Chen's Portfolio</title>
-
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<meta property="og:image" content="https://home.png">
@@ -39,8 +41,9 @@
 								<h1>Yi-Kai Chen's Portfolio</h1>
 								<p>AN ASPIRING Business Analyst skilled in SQL, Tableau and R  
 								<br> Welcome!!<br> 
-								<a href="https://www.linkedin.com/in/yikaichen0214/" target= "_blank">@My LinkedIn</a> 
-								<br><a href="https://github.com/yiKai0214?tab=projects" target= "_blank">@My GitHub</a> </p>
+								<a href="https://www.linkedin.com/in/yikaichen0214/" target= "_blank">@My LinkedIn</a>
+								<br><a href="https://github.com/yiKai0214?tab=projects" target= "_blank">@My GitHub</a> 
+								<br><a href="https://public.tableau.com/app/profile/yi.kai.chen3013/vizzes" target= "_blank">@My Tableau Visualizations </a>  </p>
 							</div>
 						</div>
 						<nav>
@@ -124,7 +127,48 @@
 							</article>
 						<!-- Projects -->
 							<article id="projects">
-								<h2 class="major">Amazon Air Analysis with SQL,
+								<h2 class="major" >Menu </h2>
+								<a href="#clv">1. Customer Centricity: Unveiling Predictive CLV, Repeat Purchases and RFM Patterns with Python and Tableau</a>
+								<br>
+								<a href="#amazon air">2. Amazon Air Analysis: Tableau Dashboard Powered by AWS ETL Data Pipeline</a>
+								<br>
+								<a href="#diamond">3. Diamond Price Forecasting: Harnessing SQL and R</a>
+								<br>
+								<a href="#baseball">4. Seattle Mariners Win Projection: R, Logistic, Linear Regression</a>
+								<br>
+								<a href="#deloitte">5. Deloitte IT Inspection: Collaborating with HTC for MSSQL Database Optimization</a>
+								<br><br>
+
+								<h2 class="major" id="clv">Predict Customer Insights 
+									<br>with Python and Tableau</h2>
+                                <span class="image main"><img src="images/clv.jpg" alt="" /></span>
+								<h3>When</h3>
+								<p>Project timeline: Dec.2023
+								<br>Dataset time period: Aug.31.2018 ~ Sep.1.2019
+								<br>Please check documentation at <a href="https://medium.com/@yikai0214/customer-centricity-predictive-clv-repeat-purchase-and-rfm-patterns-with-the-bg-nbd-model-29a983ab2d60"  target= "_blank">@Medium</a> </p>
+								<h3>Why</h3>
+								<p>Customers are heterogeneous. Companies should treat customers as individuals at different levels rather than as a homogeneous whole and 
+								   tailor customized marketing campaigns, thus ensuring a more effective and targeted approach to engage and maximize value from diverse customer groups.</p>
+								<h3>What</h3>
+								   <p>1. Used Lifetimes python package to classify e-commerce customers to 4 groups with purchasing recency, frequency and monetary value. </p>
+								   <span class="image main"><img src="images/clv pred.png " alt="" /></span>
+								   <p>2. Used Lifetimes python package to predict e-commerce Customer Lifetime Value (CLV) in the future time period, repeat purchase, inventory level and 6 more predictive customer insights. </p>
+								   <span class="image main"><img src="images/clv pred2.png " alt="" /></span>
+								   <p>3. Visualized predictive customer insights into Tableau dashboard. </p>
+								   <span class="image main"><img src="images/clv dashboard.png" alt="" /></span>
+								   Please check dashboard at <a href="https://public.tableau.com/app/profile/yi.kai.chen3013/viz/PredictiveCLVandRFMAnalysis/SegmentDashboard"  target= "_blank">@CLV Tableau</a> 
+								   <p>4. Predict inventory stock level for regional warehouse  </p>
+								   
+								   <span class="image main"><img src="images/inventory pred.webp" alt="" /></span>  
+								   <p>5. Designed customer-centric and data-driven strategies for each customer segment.
+								  <br>- Example: ML-Generated Discount Offer Email. When the algorithm identifies an ‘At Risk’ customer with recency exceeding 250 days and a low Predictive CLV, an automatic discount offer email is triggered to prompt the next purchase. To boost profitability through such algorithm, consider willingness to pay (WTP), Economic Value to the Customer (EVC), and geographical factors.
+								  <br>- Metrics: Lifetime value impact, email click-through rate, conversion rate, quarterly customer growth rate
+								  <span class="image main"><img src="images/ml email.webp" alt="" /></span>
+
+								
+								
+								
+								   <h2 class="major" id="amazon air">Amazon Air Analysis with SQL,
 									<br>Tableau and ETL data pipeline</h2>
                                 <span class="image main"><img src="images/amazon air logo.png" alt="" /></span>
 								<h3>When</h3>
@@ -162,7 +206,7 @@
 								<br>Please check my analysis and insights at <a href="https://www.linkedin.com/in/yikaichen0214/overlay/projects/1059160596/multiple-media-viewer/?profileId=ACoAADaVjCIBMAXX--uooii8eQNM4UP2HPSR3qM&treasuryMediaId=1635542522538" target= "_blank">@Technical Documentation</a> 
 								<br>Please check my SQL code at <a href="https://github.com/yiKai0214?tab=projects"  target= "_blank">@Github</a> </p>
 								
-								<h2 class="major">Diamond Price Prediction 
+								<h2 class="major" id ="diamond">Diamond Price Prediction 
 									<br>with MySQL and R 
 									</h2>
                                 <span class="image main"><img src="images/diamond.jpeg" alt="" /></span>
@@ -190,7 +234,7 @@
 								<span class="image main"><img src="images/dprice.png" alt="" /></span>
                                 Please check my SQL code at <a href="https://github.com/yiKai0214?tab=projects"  target= "_blank">@Github</a> </p>
                                 <br>
-								<h2 class="major">Baseball Prediction with R</h2>
+								<h2 class="major" id="baseball">Baseball Prediction with R</h2>
 								<span class="image main"><img src="images/mariners.png" alt="" /></span>
 	
 								<h3>When</h3>
@@ -222,7 +266,7 @@
 								<br><br>Please check my R code at <a href="https://github.com/yiKai0214?tab=projects"  target= "_blank">@Github</a>
 								<br>For more information, please check my analysis and insights at <a href="https://www.linkedin.com/in/yikaichen0214/overlay/1635529426966/single-media-viewer/?profileId=ACoAADaVjCIBMAXX--uooii8eQNM4UP2HPSR3qM" target= "_blank">@Documentation</a> </p>
 							
-								<h2 class="major">IT System inspection Project 
+								<h2 class="major" id="deloitte">IT System inspection Project 
 									<br>with HTC </h2>
                                 <span class="image main"><img src="images/htc2.png" alt="" /></span>
 								<h3>When</h3>
@@ -255,22 +299,46 @@
 							</article>
 						<!-- extra -->
 						<article id="extra">
-							<h2 class="major">Championship of Russell 
+							<h2 class="major" >Menu </h2>
+							<a href="#video">1. Participant of making AWS marketing video</a>
+							<br>
+                            <a href="#panelist">2. VIP Panelist of AWS</a>
+							<br>
+                            <a href="#RIICC">3. Championship of Russell Investments International Case Competition 2O23</a>
+							<br>
+                            <a href="#AWS">4. AWS Skills Center In-Person Cloud Computing Training</a>
+							<br><br>
+							<h2 class="major" id = "video">Making AWS marketing video</h2>
+							<h3>When</h3>
+							<p>Dec.5 2023</p>
+							<p>- Invited by AWS to make promoting video</p>
+							<span class="image main"><img src="images/video1.jpeg" alt="" /></span>
+							<p>- Invited by AWS to shared my learning experience of cloud</p>
+							<span class="image main"><img src="images/video2.jpeg" alt="" /></span>
+							<h2 class="major" id = "panelist">VIP Panelist of AWS</h2>
+							<h3>When</h3>
+							<p>Nov.16 2023</p>
+								<span class="image main"><img src="images/panelist.png" alt="" /></span>
+							<p>- Invited by the AWS Skills Center to present personal AWS ETL pipeline project.</p>
+								<span class="image main"><img src="images/jeffbarr.jpg" alt="" /></span>
+							<p>- Presented my tech journey to 60+ audiences including AWS VP and Chief Evangelist, Jeff Barr.</p>								
+							<h2 class="major" id = "RIICC">Championship of Russell 
 								<br>Investments International 
 								<br>Case Competition 2O23</h2>
 								<span class="image main"><img src="images/Masters-RIICC-Champ.jpg" alt="" /></span>
 							<h3>When</h3>
 							<p>Nov.4 2023 ~ Nov.6 2023</p>
+							
 							<h3>How</h3>
-							<p>(1) As a team leader, I guided 4 business analysis students in conducting marketing analysis and break-even analysis of AI created plant-based foods to come up with a robust, actionable, and frugal go-to-market strategy within 48 hours.
+							<p>(1) As a team leader, I guided 4 business analytics students in conducting marketing analysis and break-even analysis of AI created plant-based foods to come up with a robust, actionable, and frugal go-to-market strategy within 48 hours.
 							<br><br>(2) Convinced 4 judges from Microsoft and Expedia by articulating actual business application and answering questions candidly.	
 							<br><br>(3) Competed with master students from MBA, Supply Chain Management and Information System, winning $500 grand prize. </p>
-								<br>For more detail of our project please check the article at <a href=https://blog.foster.uw.edu/students-explore-new-global-markets-for-ai-created-plant-based-food-products/ target= "_blank">@Foster Business School Blog</a>
-							
-						
-							<h2 class="major">AWS Skills Center</h2>
+							<span class="image main"><img src="images/notco.jpg" alt="" /></span>
+							For more detail of our project please check the article at <a href=https://blog.foster.uw.edu/students-explore-new-global-markets-for-ai-created-plant-based-food-products/ target= "_blank">@Foster Business School Blog</a>
+                            <br><br>
+							<h2 class="major" id="AWS"> AWS Skills Center</h2>
 							<p>(1) I took 9 in-person cloud computing classes at the AWS Skills Center, in which I learned concepts such as Amazon S3, Amazon EC2, Amazon RDS.
-							<br>(2)	I also join 5+ AWS Skills Center’s events, including career networking event, volunteer event and Cloud Exploration Day.
+							<br><br>(2)	I also join 5+ AWS Skills Center’s events, including career networking event, volunteer event and Cloud Exploration Day.
 								</p>
 							<span class="image main"><img src="images/aws.png" alt="" /></span>
 							<span class="image main"><img src="images/awscerts.png" alt="" /></span>
@@ -282,6 +350,10 @@
 							<article id="book">
 							<h2 class="major">Business</h2>
 							<p>
+							<h3>Business Data Science</h3> 
+                                <span class="image main"><img src="images/bds.jpeg" alt="" /></span>
+								<h3>The Customer Centricity Playbook: Implement a Winning Strategy Driven by Customer Lifetime Value</h3> 
+                                <span class="image main"><img src="images/clv book.jpg" alt="" /></span>
 							<h3>Working Backwards: Insights, Stories, and Secrets from Inside Amazon</h3> 
                                 <span class="image main"><img src="images/working backward.jpg" alt="" /></span>
 							<br><br><h3>Lean Analytics: Use Data to Build a Better Startup Faster </h3>
